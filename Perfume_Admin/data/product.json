@@ -1,0 +1,98 @@
+[
+    {
+      "id": 1,
+      "name": "Laser Safety Glasses Goggles A",
+      "category": "Laser Welding Spares",
+      "originalPrice": 2500,
+      "price": 2375,
+      "discount": "5% OFF",
+      "image": "https://fiberlaserspare.com/public/upload/product/87286c339548938d4e54efe9518463ca104.webp",
+      "status": true,
+      "brand": "Newtech",
+      "packing": "1 Pcs"
+    },
+    {
+      "id": 2,
+      "name": "Laser Safety Glasses Goggles",
+      "category": "Laser Welding Spares",
+      "originalPrice": 2200,
+      "price": 2090,
+      "discount": "5% OFF",
+      "image": "https://fiberlaserspare.com/public/upload/product/4102e7ef1a68fc0e8ea8c3dcd401b35d103.webp",
+      "status": true,
+      "brand": "Newtech",
+      "packing": "1 Pcs"
+    },
+    {
+      "id": 3,
+      "name": "Laser Welding Gun Safety Cover 10mtr",
+      "category": "Laser Welding Spares",
+      "originalPrice": 3225,
+      "price": 3225,
+      "discount": "0% OFF",
+      "image": "https://fiberlaserspare.com/public/upload/product/1530ffad894793a0251e846f887a0a3c102.webp",
+      "status": true,
+      "brand": "Newtech",
+      "packing": "1 Pcs"
+    },
+    {
+      "id": 4,
+      "name": "Laser Welding Tip Holder Tube 100mm",
+      "category": "Laser Welding Spares",
+      "originalPrice": 230,
+      "price": 230,
+      "discount": "0% OFF",
+      "image": "https://fiberlaserspare.com/public/upload/product/c36490762ca4e0d912f322105f13f897101.webp",
+      "status": true,
+      "brand": "Newtech",
+      "packing": "5 Pcs"
+    },
+    {
+      "id": 5,
+      "name": "Laser Welding Rod 100mm",
+      "category": "Laser Welding Spares",
+      "originalPrice": 250,
+      "price": 250,
+      "discount": "0% OFF",
+      "image": "https://fiberlaserspare.com/public/upload/product/294bfa0b7ad537d2a2b51cb6cf222eea98.webp",
+      "status": true,
+      "brand": "Newtech",
+      "packing": "10 Pcs"
+    },
+    {
+      "id": 6,
+      "name": "Laser Welding Rod 200mm",
+      "category": "Laser Welding Spares",
+      "originalPrice": 280,
+      "price": 280,
+      "discount": "0% OFF",
+      "image": "https://fiberlaserspare.com/public/upload/product/a873e6294c3bed457ec778828525847194.webp",
+      "status": true,
+      "brand": "Newtech",
+      "packing": "10 Pcs"
+    },
+    {
+      "id": 7,
+      "name": "Plasma Cutting Tips Set",
+      "category": "Air Plasma Cutting Spares",
+      "originalPrice": 3500,
+      "price": 3500,
+      "discount": "0% OFF",
+      "image": "https://fiberlaserspare.com/public/upload/product/808cbf613ee8a41f9ef4da2f7bf7a1b093.webp",
+      "status": true,
+      "brand": "Newtech",
+      "packing": "5 Pcs"
+    },
+    {
+      "id": 8,
+      "name": "TIG Welding Nozzle Copper",
+      "category": "Tig Welding Spares",
+      "originalPrice": 1200,
+      "price": 960,
+      "discount": "20% OFF",
+      "image": "https://fiberlaserspare.com/public/upload/product/03cd14f311e032693e2b01df8a8682eb91.webp",
+      "status": true,
+      "brand": "Newtech",
+      "packing": "1 Pcs"
+    }
+]

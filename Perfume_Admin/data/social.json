@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "icon": "https://cdn-icons-png.flaticon.com/512/124/124010.png",
+    "socialName": "Facebook",
+    "link": "https://www.facebook.com/example",
+    "isAction": true,
+    "isSocial": true,
+    "updatedDate": "2025-03-13T12:00:00Z"
+  },
+  {
+    "id": 2,
+    "icon": "https://cdn-icons-png.flaticon.com/512/733/733579.png",
+    "socialName": "Twitter",
+    "link": "https://www.twitter.com/example",
+    "isAction": true,
+    "isSocial": true,
+    "updatedDate": "2025-03-13T12:00:00Z"
+  },
+  {
+    "id": 3,
+    "icon": "https://cdn-icons-png.flaticon.com/512/2111/2111463.png",
+    "socialName": "Instagram",
+    "link": "https://www.instagram.com/example",
+    "isAction": true,
+    "isSocial": true,
+    "updatedDate": "2025-03-13T12:00:00Z"
+  },
+  {
+    "id": 4,
+    "icon": "https://cdn-icons-png.flaticon.com/512/174/174857.png",
+    "socialName": "LinkedIn",
+    "link": "https://www.linkedin.com/in/example",
+    "isAction": true,
+    "isSocial": true,
+    "updatedDate": "2025-03-13T12:00:00Z"
+  },
+  {
+    "id": 5,
+    "icon": "https://cdn-icons-png.flaticon.com/512/1384/1384060.png",
+    "socialName": "YouTube",
+    "link": "https://www.youtube.com/c/example",
+    "isAction": true,
+    "isSocial": true,
+    "updatedDate": "2025-03-13T12:00:00Z"
+  }
+]

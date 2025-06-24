@@ -1,0 +1,876 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "image": "https://randomuser.me/api/portraits/men/1.jpg",
+            "name": "John Doe",
+            "email": "johndoe@example.com",
+            "mobile": "+1 123-456-7890",
+            "registerAt": "2025-03-10 14:30:00"
+        },
+        {
+            "id": 2,
+            "image": "https://randomuser.me/api/portraits/women/2.jpg",
+            "name": "Jane Smith",
+            "email": "janesmith@example.com",
+            "mobile": "+1 987-654-3210",
+            "registerAt": "2025-03-11 09:15:00"
+        },
+        {
+            "id": 3,
+            "image": "https://randomuser.me/api/portraits/men/3.jpg",
+            "name": "Mark Taylor",
+            "email": "marktaylor@example.com",
+            "mobile": "+44 20 7946 0123",
+            "registerAt": "2025-03-12 16:45:00"
+        },
+        {
+            "id": 4,
+            "image": "https://randomuser.me/api/portraits/women/4.jpg",
+            "name": "Emma Watson",
+            "email": "emmawatson@example.com",
+            "mobile": "+49 170 1234567",
+            "registerAt": "2025-03-13 11:20:00"
+        },
+        {
+            "id": 5,
+            "image": "https://randomuser.me/api/portraits/men/5.jpg",
+            "name": "David Johnson",
+            "email": "davidjohnson@example.com",
+            "mobile": "+61 400 123 456",
+            "registerAt": "2025-03-14 18:05:00"
+        }
+    ],
+    "variants": [
+        {
+            "id": 1,
+            "name": "Size",
+            "parent": "---",
+            "updatedDate": "2025-03-13T10:30:00Z",
+            "isAction": true,
+            "isVariant": true
+        },
+        {
+            "id": 2,
+            "name": "Color",
+            "parent": "---",
+            "updatedDate": "2025-03-13T10:30:00Z",
+            "isAction": true,
+            "isVariant": true
+        },
+        {
+            "id": 3,
+            "name": "Material",
+            "parent": "---",
+            "updatedDate": "2025-03-13T10:30:00Z",
+            "isAction": true,
+            "isVariant": true
+        },
+        {
+            "id": 4,
+            "name": "Blue",
+            "parent": "Color",
+            "updatedDate": "2025-03-13T10:31:00Z",
+            "isAction": true,
+            "isVariant": true
+        },
+        {
+            "id": 5,
+            "name": "Green",
+            "parent": "Color",
+            "updatedDate": "2025-03-13T10:32:00Z",
+            "isAction": true,
+            "isVariant": true
+        },
+        {
+            "id": 6,
+            "name": "Small",
+            "parent": "Size",
+            "updatedDate": "2025-03-13T10:33:00Z",
+            "isAction": true,
+            "isVariant": true
+        },
+        {
+            "id": 7,
+            "name": "Medium",
+            "parent": "Size",
+            "updatedDate": "2025-03-13T10:34:00Z",
+            "isAction": true,
+            "isVariant": true
+        },
+        {
+            "id": 8,
+            "name": "Large",
+            "parent": "Size",
+            "updatedDate": "2025-03-13T10:35:00Z",
+            "isAction": true,
+            "isVariant": true
+        },
+        {
+            "id": 9,
+            "name": "64GB",
+            "parent": "Storage",
+            "updatedDate": "2025-03-13T10:36:00Z",
+            "isAction": true,
+            "isVariant": true
+        },
+        {
+            "id": 10,
+            "name": "128GB",
+            "parent": "Storage",
+            "updatedDate": "2025-03-13T10:37:00Z",
+            "isAction": true,
+            "isVariant": true
+        },
+        {
+            "id": 11,
+            "name": "256GB",
+            "parent": "Storage",
+            "updatedDate": "2025-03-13T10:38:00Z",
+            "isAction": true,
+            "isVariant": true
+        },
+        {
+            "id": 12,
+            "name": "Cotton",
+            "parent": "Material",
+            "updatedDate": "2025-03-13T10:39:00Z",
+            "isAction": true,
+            "isVariant": true
+        },
+        {
+            "id": 13,
+            "name": "Leather",
+            "parent": "Material",
+            "updatedDate": "2025-03-13T10:40:00Z",
+            "isAction": true,
+            "isVariant": true
+        },
+        {
+            "id": 14,
+            "name": "Denim",
+            "parent": "Material",
+            "updatedDate": "2025-03-13T10:41:00Z",
+            "isAction": true,
+            "isVariant": true
+        }
+    ],
+    "social": [
+        {
+            "id": 1,
+            "icon": "https://cdn-icons-png.flaticon.com/512/124/124010.png",
+            "socialName": "Facebook",
+            "link": "https://www.facebook.com/example",
+            "isAction": true,
+            "isSocial": true,
+            "updatedDate": "2025-03-13T12:00:00Z"
+        },
+        {
+            "id": 2,
+            "icon": "https://cdn-icons-png.flaticon.com/512/733/733579.png",
+            "socialName": "Twitter",
+            "link": "https://www.twitter.com/example",
+            "isAction": true,
+            "isSocial": true,
+            "updatedDate": "2025-03-13T12:00:00Z"
+        },
+        {
+            "id": 3,
+            "icon": "https://cdn-icons-png.flaticon.com/512/2111/2111463.png",
+            "socialName": "Instagram",
+            "link": "https://www.instagram.com/example",
+            "isAction": true,
+            "isSocial": true,
+            "updatedDate": "2025-03-13T12:00:00Z"
+        },
+        {
+            "id": 4,
+            "icon": "https://cdn-icons-png.flaticon.com/512/174/174857.png",
+            "socialName": "LinkedIn",
+            "link": "https://www.linkedin.com/in/example",
+            "isAction": true,
+            "isSocial": true,
+            "updatedDate": "2025-03-13T12:00:00Z"
+        },
+        {
+            "id": 5,
+            "icon": "https://cdn-icons-png.flaticon.com/512/1384/1384060.png",
+            "socialName": "YouTube",
+            "link": "https://www.youtube.com/c/example",
+            "isAction": true,
+            "isSocial": true,
+            "updatedDate": "2025-03-13T12:00:00Z"
+        }
+    ],
+    "slider": [
+        {
+            "id": 1,
+            "image": "/images/slider-1-desktop-0.webp",
+            "name": "slider 2",
+            "relatedTo": "category",
+            "updateDate": "17, Jan 2024 10:39 PM",
+            "isAction": true,
+            "link": "https://picsum.photos/150",
+            "isSlider": true
+        },
+        {
+            "id": 2,
+            "image": "/images/slider-2-desktop-0.webp",
+            "name": "slider 1",
+            "relatedTo": "category",
+            "updateDate": "17, Jan 2024 10:39 PM",
+            "isAction": true,
+            "link": "https://picsum.photos/150/150",
+            "isSlider": true
+        },
+        {
+            "id": 2,
+            "image": "/images/slider-3-desktop-8.webp",
+            "name": "slider 1",
+            "relatedTo": "category",
+            "updateDate": "17, Jan 2024 10:39 PM",
+            "isAction": true,
+            "link": "https://picsum.photos/150/150",
+            "isSlider": true
+        }
+    ],
+    "shippingPartner": [
+        {
+            "id": 1,
+            "methodName": "FedEx",
+            "loginId": "fedexUser123",
+            "loginPassword": "Fedex@456",
+            "isAction": true,
+            "isShippingPartner": true
+        },
+        {
+            "id": 2,
+            "methodName": "DHL",
+            "loginId": "dhlUser789",
+            "loginPassword": "Dhl@123",
+            "isAction": true,
+            "isShippingPartner": true
+        },
+        {
+            "id": 3,
+            "methodName": "UPS",
+            "loginId": "upsUser567",
+            "loginPassword": "Ups@890",
+            "isAction": true,
+            "isShippingPartner": true
+        },
+        {
+            "id": 4,
+            "methodName": "BlueDart",
+            "loginId": "bluedartUser321",
+            "loginPassword": "BlueDart@654",
+            "isAction": true,
+            "isShippingPartner": true
+        },
+        {
+            "id": 5,
+            "methodName": "USPS",
+            "loginId": "uspsUser111",
+            "loginPassword": "Usps@777",
+            "isAction": true,
+            "isShippingPartner": true
+        }
+    ],
+    "product": [
+        {
+            "id": 1,
+            "name": "Laser Safety Glasses Goggles A",
+            "category": "Laser Welding Spares",
+            "originalPrice": 2500,
+            "price": 2375,
+            "discount": "5% OFF",
+            "image": "https://fiberlaserspare.com/public/upload/product/87286c339548938d4e54efe9518463ca104.webp",
+            "status": true,
+            "brand": "Newtech",
+            "packing": "1 Pcs"
+        },
+        {
+            "id": 2,
+            "name": "Laser Safety Glasses Goggles",
+            "category": "Laser Welding Spares",
+            "originalPrice": 2200,
+            "price": 2090,
+            "discount": "5% OFF",
+            "image": "https://fiberlaserspare.com/public/upload/product/4102e7ef1a68fc0e8ea8c3dcd401b35d103.webp",
+            "status": true,
+            "brand": "Newtech",
+            "packing": "1 Pcs"
+        },
+        {
+            "id": 3,
+            "name": "Laser Welding Gun Safety Cover 10mtr",
+            "category": "Laser Welding Spares",
+            "originalPrice": 3225,
+            "price": 3225,
+            "discount": "0% OFF",
+            "image": "https://fiberlaserspare.com/public/upload/product/1530ffad894793a0251e846f887a0a3c102.webp",
+            "status": true,
+            "brand": "Newtech",
+            "packing": "1 Pcs"
+        },
+        {
+            "id": 4,
+            "name": "Laser Welding Tip Holder Tube 100mm",
+            "category": "Laser Welding Spares",
+            "originalPrice": 230,
+            "price": 230,
+            "discount": "0% OFF",
+            "image": "https://fiberlaserspare.com/public/upload/product/c36490762ca4e0d912f322105f13f897101.webp",
+            "status": true,
+            "brand": "Newtech",
+            "packing": "5 Pcs"
+        },
+        {
+            "id": 5,
+            "name": "Laser Welding Rod 100mm",
+            "category": "Laser Welding Spares",
+            "originalPrice": 250,
+            "price": 250,
+            "discount": "0% OFF",
+            "image": "https://fiberlaserspare.com/public/upload/product/294bfa0b7ad537d2a2b51cb6cf222eea98.webp",
+            "status": true,
+            "brand": "Newtech",
+            "packing": "10 Pcs"
+        },
+        {
+            "id": 6,
+            "name": "Laser Welding Rod 200mm",
+            "category": "Laser Welding Spares",
+            "originalPrice": 280,
+            "price": 280,
+            "discount": "0% OFF",
+            "image": "https://fiberlaserspare.com/public/upload/product/a873e6294c3bed457ec778828525847194.webp",
+            "status": true,
+            "brand": "Newtech",
+            "packing": "10 Pcs"
+        },
+        {
+            "id": 7,
+            "name": "Plasma Cutting Tips Set",
+            "category": "Air Plasma Cutting Spares",
+            "originalPrice": 3500,
+            "price": 3500,
+            "discount": "0% OFF",
+            "image": "https://fiberlaserspare.com/public/upload/product/808cbf613ee8a41f9ef4da2f7bf7a1b093.webp",
+            "status": true,
+            "brand": "Newtech",
+            "packing": "5 Pcs"
+        },
+        {
+            "id": 8,
+            "name": "TIG Welding Nozzle Copper",
+            "category": "Tig Welding Spares",
+            "originalPrice": 1200,
+            "price": 960,
+            "discount": "20% OFF",
+            "image": "https://fiberlaserspare.com/public/upload/product/03cd14f311e032693e2b01df8a8682eb91.webp",
+            "status": true,
+            "brand": "Newtech",
+            "packing": "1 Pcs"
+        }
+    ],
+    "payment": [
+        {
+            "id": 1,
+            "name": "PayPal",
+            "isAction": true,
+            "isPayment": true,
+            "mode": "test",
+            "testKey": "test-paypal-key-123",
+            "liveKey": "live-paypal-key-456"
+        },
+        {
+            "id": 2,
+            "name": "Stripe",
+            "isAction": true,
+            "isPayment": true,
+            "mode": "live",
+            "testKey": "test-stripe-key-789",
+            "liveKey": "live-stripe-key-101"
+        },
+        {
+            "id": 3,
+            "name": "Razorpay",
+            "isAction": true,
+            "isPayment": true,
+            "mode": "test",
+            "testKey": "test-razorpay-key-112",
+            "liveKey": "live-razorpay-key-131"
+        },
+        {
+            "id": 4,
+            "name": "Cash on Delivery",
+            "isAction": true,
+            "isPayment": true,
+            "mode": "live",
+            "testKey": "---",
+            "liveKey": "---"
+        }
+    ],
+    "orderStatus": [
+        {
+            "id": 1,
+            "productCode": "PRD001",
+            "productName": "Smartphone X",
+            "productStatus": "Pending",
+            "updateDate": "2024-03-13",
+            "isAction": true,
+            "isOrderStatus": true
+        },
+        {
+            "id": 2,
+            "productCode": "PRD002",
+            "productName": "Wireless Headphones",
+            "productStatus": "In Progress",
+            "updateDate": "2024-03-12",
+            "isAction": true,
+            "isOrderStatus": true
+        },
+        {
+            "id": 3,
+            "productCode": "PRD003",
+            "productName": "Gaming Laptop",
+            "productStatus": "Dispatch",
+            "updateDate": "2024-03-10",
+            "isAction": true,
+            "isOrderStatus": true
+        },
+        {
+            "id": 4,
+            "productCode": "PRD004",
+            "productName": "Smartwatch Pro",
+            "productStatus": "Cancelled",
+            "updateDate": "2024-03-11",
+            "isAction": true,
+            "isOrderStatus": true
+        },
+        {
+            "id": 5,
+            "productCode": "PRD005",
+            "productName": "4K LED TV",
+            "productStatus": "In Progress",
+            "updateDate": "2024-03-09",
+            "isAction": true,
+            "isOrderStatus": true
+        }
+    ],
+    "order": [
+        {
+            "srNo": 1,
+            "orderNo": "ORD12345",
+            "orderDate": "2025-03-10",
+            "amountDetail": "$120.00",
+            "billingDetail": "John Doe, 123 Main St, NY",
+            "shippingDetail": "John Doe, 456 Elm St, CA"
+        },
+        {
+            "srNo": 2,
+            "orderNo": "ORD12346",
+            "orderDate": "2025-03-11",
+            "amountDetail": "$85.50",
+            "billingDetail": "Jane Smith, 789 Oak St, TX",
+            "shippingDetail": "Jane Smith, 101 Pine St, FL"
+        },
+        {
+            "srNo": 3,
+            "orderNo": "ORD12347",
+            "orderDate": "2025-03-12",
+            "amountDetail": "$200.00",
+            "billingDetail": "Mark Taylor, 321 Birch St, WA",
+            "shippingDetail": "Mark Taylor, 654 Cedar St, NV"
+        },
+        {
+            "srNo": 4,
+            "orderNo": "ORD12348",
+            "orderDate": "2025-03-13",
+            "amountDetail": "$150.75",
+            "billingDetail": "Emma Watson, 111 Maple St, IL",
+            "shippingDetail": "Emma Watson, 222 Willow St, CO"
+        },
+        {
+            "srNo": 5,
+            "orderNo": "ORD12349",
+            "orderDate": "2025-03-14",
+            "amountDetail": "$95.99",
+            "billingDetail": "David Johnson, 333 Ash St, AZ",
+            "shippingDetail": "David Johnson, 555 Poplar St, OR"
+        }
+    ],
+    "inquiry": [
+        {
+            "id": 1,
+            "product": "Laptop",
+            "name": "John Doe",
+            "email": "johndoe@example.com",
+            "mobile": "9876543210",
+            "message": "Looking for a gaming laptop.",
+            "updateDate": "2025-03-10 10:30 AM",
+            "isInquiry": true
+        },
+        {
+            "id": 2,
+            "product": "Smartphone",
+            "name": "Jane Smith",
+            "email": "janesmith@example.com",
+            "mobile": "9123456789",
+            "message": "Need details about battery life.",
+            "updateDate": "2025-03-09 02:45 PM",
+            "isInquiry": true
+        },
+        {
+            "id": 3,
+            "product": "Headphones",
+            "name": "Michael Brown",
+            "email": "michaelb@example.com",
+            "mobile": "9234567890",
+            "message": "Do these support noise cancellation?",
+            "updateDate": "2025-03-08 09:15 AM",
+            "isInquiry": true
+        },
+        {
+            "id": 4,
+            "product": "Smartwatch",
+            "name": "Emily Davis",
+            "email": "emilyd@example.com",
+            "mobile": "9345678901",
+            "message": "Is it waterproof?",
+            "updateDate": "2025-03-07 11:20 AM",
+            "isInquiry": true
+        },
+        {
+            "id": 5,
+            "product": "Tablet",
+            "name": "David Wilson",
+            "email": "davidw@example.com",
+            "mobile": "9456789012",
+            "message": "Looking for a lightweight model.",
+            "updateDate": "2025-03-06 04:10 PM",
+            "isInquiry": true
+        },
+        {
+            "id": 6,
+            "product": "Gaming Console",
+            "name": "Sophia Martinez",
+            "email": "sophiam@example.com",
+            "mobile": "9567890123",
+            "message": "Does it support 4K gaming?",
+            "updateDate": "2025-03-05 06:30 PM",
+            "isInquiry": true
+        },
+        {
+            "id": 7,
+            "product": "Bluetooth Speaker",
+            "name": "Daniel Anderson",
+            "email": "daniela@example.com",
+            "mobile": "9678901234",
+            "message": "What is the battery backup time?",
+            "updateDate": "2025-03-04 12:00 PM",
+            "isInquiry": true
+        },
+        {
+            "id": 8,
+            "product": "Camera",
+            "name": "Olivia Thomas",
+            "email": "oliviat@example.com",
+            "mobile": "9789012345",
+            "message": "Does it support night mode?",
+            "updateDate": "2025-03-03 08:50 AM",
+            "isInquiry": true
+        },
+        {
+            "id": 9,
+            "product": "Wireless Mouse",
+            "name": "Ethan Harris",
+            "email": "ethanh@example.com",
+            "mobile": "9890123456",
+            "message": "Is it compatible with Mac?",
+            "updateDate": "2025-03-02 03:25 PM",
+            "isInquiry": true
+        },
+        {
+            "id": 10,
+            "product": "External Hard Drive",
+            "name": "Ava White",
+            "email": "avaw@example.com",
+            "mobile": "9901234567",
+            "message": "What is the transfer speed?",
+            "updateDate": "2025-03-01 05:40 PM",
+            "isInquiry": true
+        }
+    ],
+    "coupon": [
+        {
+            "id": 1,
+            "name": "XYZ",
+            "type": "amount",
+            "typeDetail": "₹8000",
+            "minAmount": "₹999",
+            "dateDetail": "25-12-2023 To 25-01-2024",
+            "updateDate": "25, Dec 2023 03:58 pm",
+            "isAction": true,
+            "isCoupon": true
+        },
+        {
+            "id": 2,
+            "name": "COUPON",
+            "type": "amount",
+            "typeDetail": "₹1500",
+            "minAmount": "₹2000",
+            "dateDetail": "13-12-2023 To 13-01-2024",
+            "updateDate": "13, Dec 2023 06:43 pm",
+            "isAction": true,
+            "isCoupon": true
+        },
+        {
+            "id": 3,
+            "name": "DISCOUNT50",
+            "type": "amount",
+            "typeDetail": "₹5000",
+            "minAmount": "₹1000",
+            "dateDetail": "01-01-2024 To 31-01-2024",
+            "updateDate": "01, Jan 2024 12:00 pm",
+            "isAction": true,
+            "isCoupon": true
+        },
+        {
+            "id": 4,
+            "name": "OFFER2024",
+            "type": "percentage",
+            "typeDetail": "10%",
+            "minAmount": "₹1500",
+            "dateDetail": "05-01-2024 To 05-02-2024",
+            "updateDate": "05, Jan 2024 09:30 am",
+            "isAction": true,
+            "isCoupon": true
+        },
+        {
+            "id": 5,
+            "name": "SAVE20",
+            "type": "percentage",
+            "typeDetail": "20%",
+            "minAmount": "₹2500",
+            "dateDetail": "10-01-2024 To 10-02-2024",
+            "updateDate": "10, Jan 2024 02:15 pm",
+            "isAction": true,
+            "isCoupon": true
+        },
+        {
+            "id": 6,
+            "name": "MEGADEAL",
+            "type": "amount",
+            "typeDetail": "₹3000",
+            "minAmount": "₹1200",
+            "dateDetail": "15-01-2024 To 15-02-2024",
+            "updateDate": "15, Jan 2024 05:45 pm",
+            "isAction": true,
+            "isCoupon": true
+        },
+        {
+            "id": 7,
+            "name": "FESTIVE25",
+            "type": "percentage",
+            "typeDetail": "25%",
+            "minAmount": "₹3000",
+            "dateDetail": "20-01-2024 To 20-02-2024",
+            "updateDate": "20, Jan 2024 08:00 am",
+            "isAction": true,
+            "isCoupon": true
+        }
+    ],
+    "category": [
+        {
+            "id": 1,
+            "name": "Electronics",
+            "parent": "----",
+            "updatedDate": "2025-03-13T10:30:00Z",
+            "isAction": true,
+            "isCategory": true
+        },
+        {
+            "id": 2,
+            "name": "Laptops",
+            "parent": "Electronics",
+            "updatedDate": "2025-03-13T10:35:00Z",
+            "isAction": true,
+            "isCategory": true
+        },
+        {
+            "id": 3,
+            "name": "Smartphones",
+            "parent": "Electronics",
+            "updatedDate": "2025-03-13T10:40:00Z",
+            "isAction": true,
+            "isCategory": true
+        },
+        {
+            "id": 4,
+            "name": "Fashion",
+            "parent": "----",
+            "updatedDate": "2025-03-13T10:45:00Z",
+            "isAction": true,
+            "isCategory": true
+        },
+        {
+            "id": 5,
+            "name": "Men's Clothing",
+            "parent": "Fashion",
+            "updatedDate": "2025-03-13T10:50:00Z",
+            "isAction": true,
+            "isCategory": true
+        },
+        {
+            "id": 6,
+            "name": "Women's Clothing",
+            "parent": "Fashion",
+            "updatedDate": "2025-03-13T10:55:00Z",
+            "isAction": true,
+            "isCategory": true
+        },
+        {
+            "id": 7,
+            "name": "Home & Kitchen",
+            "parent": "----",
+            "updatedDate": "2025-03-13T11:00:00Z",
+            "isAction": true,
+            "isCategory": true
+        },
+        {
+            "id": 8,
+            "name": "Furniture",
+            "parent": "Home & Kitchen",
+            "updatedDate": "2025-03-13T11:05:00Z",
+            "isAction": true,
+            "isCategory": true
+        },
+        {
+            "id": 9,
+            "name": "Appliances",
+            "parent": "Home & Kitchen",
+            "updatedDate": "2025-03-13T11:10:00Z",
+            "isAction": true,
+            "isCategory": true
+        }
+    ],
+    "banner": [
+        {
+            "id": 1,
+            "desktopImage": "/images/slider-1-desktop-0.webp",
+            "mobileImage": "/images/slider-1-desktop-0.webp",
+            "name": "Banner 1",
+            "relatedTo": "category",
+            "updateDate": "17, Jan 2024 10:39 PM",
+            "isAction": true,
+            "link": "https://picsum.photos/150",
+            "isBanner": true
+        },
+        {
+            "id": 2,
+            "desktopImage": "/images/slider-2-desktop-0.webp",
+            "mobileImage": "/images/slider-2-desktop-0.webp",
+            "name": "Banner 2",
+            "relatedTo": "category",
+            "updateDate": "17, Jan 2024 10:39 PM",
+            "isAction": true,
+            "link": "https://picsum.photos/150/150",
+            "isBanner": true
+        },
+        {
+            "id": 3,
+            "desktopImage": "/images/slider-3-desktop-8.webp",
+            "mobileImage": "/images/slider-3-desktop-8.webp",
+            "name": "Banner 3",
+            "relatedTo": "category",
+            "updateDate": "18, Jan 2024 11:00 AM",
+            "isAction": true,
+            "link": "https://picsum.photos/150/150",
+            "isBanner": true
+        }
+    ],
+    "allOrders": [
+        {
+            "id": 1,
+            "orderNumber": "ORD123456",
+            "orderDate": "2025-03-13",
+            "amountDetail": "$150.00",
+            "billingDetail": "John Doe, NY",
+            "shippingDetail": "Jane Doe, LA"
+        },
+        {
+            "id": 2,
+            "orderNumber": "ORD789012",
+            "orderDate": "2025-03-10",
+            "amountDetail": "$200.50",
+            "billingDetail": "Alice Smith, TX",
+            "shippingDetail": "Bob Johnson, FL"
+        },
+        {
+            "id": 3,
+            "orderNumber": "ORD345678",
+            "orderDate": "2025-02-25",
+            "amountDetail": "$99.99",
+            "billingDetail": "Michael Brown, CA",
+            "shippingDetail": "Emily Davis, WA"
+        },
+        {
+            "id": 4,
+            "orderNumber": "ORD901234",
+            "orderDate": "2025-01-30",
+            "amountDetail": "$275.00",
+            "billingDetail": "Chris Wilson, NV",
+            "shippingDetail": "Sarah White, OR"
+        },
+        {
+            "id": 5,
+            "orderNumber": "ORD567890",
+            "orderDate": "2025-03-12",
+            "amountDetail": "$180.25",
+            "billingDetail": "David Clark, AZ",
+            "shippingDetail": "Sophia Lee, CO"
+        },
+        {
+            "id": 6,
+            "orderNumber": "ORD112233",
+            "orderDate": "2025-04-20",
+            "amountDetail": "$320.75",
+            "billingDetail": "Matthew Hall, TX",
+            "shippingDetail": "Olivia Martin, GA"
+        },
+        {
+            "id": 7,
+            "orderNumber": "ORD445566",
+            "orderDate": "2025-02-11",
+            "amountDetail": "$129.99",
+            "billingDetail": "Daniel Allen, MI",
+            "shippingDetail": "Emma Hernandez, NC"
+        },
+        {
+            "id": 8,
+            "orderNumber": "ORD778899",
+            "orderDate": "2025-05-02",
+            "amountDetail": "$250.50",
+            "billingDetail": "Anthony Young, MO",
+            "shippingDetail": "Isabella Gonzalez, IL"
+        },
+        {
+            "id": 9,
+            "orderNumber": "ORD990011",
+            "orderDate": "2025-05-10",
+            "amountDetail": "$199.00",
+            "billingDetail": "William Scott, TN",
+            "shippingDetail": "Mia Carter, KY"
+        },
+        {
+            "id": 10,
+            "orderNumber": "ORD223344",
+            "orderDate": "2025-08-14",
+            "amountDetail": "$75.00",
+            "billingDetail": "James Walker, OH",
+            "shippingDetail": "Liam Robinson, PA"
+        }
+    ]
+}

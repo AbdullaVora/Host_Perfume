@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "PayPal",
+        "isAction": true,
+        "isPayment": true,
+        "mode": "test",
+        "testKey": "test-paypal-key-123",
+        "liveKey": "live-paypal-key-456"
+    },
+    {
+        "id": 2,
+        "name": "Stripe",
+        "isAction": true,
+        "isPayment": true,
+        "mode": "live",
+        "testKey": "test-stripe-key-789",
+        "liveKey": "live-stripe-key-101"
+    },
+    {
+        "id": 3,
+        "name": "Razorpay",
+        "isAction": true,
+        "isPayment": true,
+        "mode": "test",
+        "testKey": "test-razorpay-key-112",
+        "liveKey": "live-razorpay-key-131"
+    },
+    {
+        "id": 4,
+        "name": "Cash on Delivery",
+        "isAction": true,
+        "isPayment": true,
+        "mode": "live",
+        "testKey": "---",
+        "liveKey": "---"
+    }
+]

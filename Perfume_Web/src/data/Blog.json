@@ -1,0 +1,39 @@
+{
+    "Blog": [
+        {
+            "img": "/images/blog_1.webp",
+            "title": "Pellensque nunc condentum",
+            "date": "October 22 2023",
+            "author": "Vinova Theme",
+            "summary": "Valentine’s Day 2021 has no choice but to unfold rather differently than usual, so we already know it will be one to remember. Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam libero lobortis in dictum velit luctus. Donec imperdiet tincidunt interdum. ..."
+        },
+        {
+            "img": "/images/blog_2.webp",
+            "title": "Aliquam vitae maximus justo",
+            "date": "October 22 2023",
+            "author": "Vinova Theme",
+            "summary": "Valentine’s Day 2021 has no choice but to unfold rather differently than usual, so we already know it will be one to remember. Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam libero lobortis in dictum velit luctus. Donec imperdiet tincidunt interdum. ..."
+        },
+        {
+            "img": "/images/blog_3.webp",
+            "title": "Nullam consectetur lacus nec",
+            "date": "October 22 2023",
+            "author": "Vinova Theme",
+            "summary": "Valentine’s Day 2021 has no choice but to unfold rather differently than usual, so we already know it will be one to remember. Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam libero lobortis in dictum velit luctus. Donec imperdiet tincidunt interdum. ..."
+        },
+        {
+            "img": "/images/blog_4.webp",
+            "title": "Elementum orci sollicitudin non",
+            "date": "October 22 2023",
+            "author": "Vinova Theme",
+            "summary": "Valentine’s Day 2021 has no choice but to unfold rather differently than usual, so we already know it will be one to remember. Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam libero lobortis in dictum velit luctus. Donec imperdiet tincidunt interdum. ..."
+        },
+        {
+            "img": "/images/blog_5.webp",
+            "title": "Quisque dictum leo venenatis",
+            "date": "October 22 2023",
+            "author": "Vinova Theme",
+            "summary": "Valentine’s Day 2021 has no choice but to unfold rather differently than usual, so we already know it will be one to remember. Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam libero lobortis in dictum velit luctus. Donec imperdiet tincidunt interdum. ..."
+        }
+    ]
+}

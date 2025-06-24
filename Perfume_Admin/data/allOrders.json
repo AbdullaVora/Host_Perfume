@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "orderNumber": "ORD123456",
+        "orderDate": "2025-03-13",
+        "amountDetail": "$150.00",
+        "billingDetail": "John Doe, NY",
+        "shippingDetail": "Jane Doe, LA"
+    },
+    {
+        "id": 2,
+        "orderNumber": "ORD789012",
+        "orderDate": "2025-03-10",
+        "amountDetail": "$200.50",
+        "billingDetail": "Alice Smith, TX",
+        "shippingDetail": "Bob Johnson, FL"
+    },
+    {
+        "id": 3,
+        "orderNumber": "ORD345678",
+        "orderDate": "2025-02-25",
+        "amountDetail": "$99.99",
+        "billingDetail": "Michael Brown, CA",
+        "shippingDetail": "Emily Davis, WA"
+    },
+    {
+        "id": 4,
+        "orderNumber": "ORD901234",
+        "orderDate": "2025-01-30",
+        "amountDetail": "$275.00",
+        "billingDetail": "Chris Wilson, NV",
+        "shippingDetail": "Sarah White, OR"
+    },
+    {
+        "id": 5,
+        "orderNumber": "ORD567890",
+        "orderDate": "2025-03-12",
+        "amountDetail": "$180.25",
+        "billingDetail": "David Clark, AZ",
+        "shippingDetail": "Sophia Lee, CO"
+    },
+    {
+        "id": 6,
+        "orderNumber": "ORD112233",
+        "orderDate": "2025-04-20",
+        "amountDetail": "$320.75",
+        "billingDetail": "Matthew Hall, TX",
+        "shippingDetail": "Olivia Martin, GA"
+    },
+    {
+        "id": 7,
+        "orderNumber": "ORD445566",
+        "orderDate": "2025-02-11",
+        "amountDetail": "$129.99",
+        "billingDetail": "Daniel Allen, MI",
+        "shippingDetail": "Emma Hernandez, NC"
+    },
+    {
+        "id": 8,
+        "orderNumber": "ORD778899",
+        "orderDate": "2025-05-02",
+        "amountDetail": "$250.50",
+        "billingDetail": "Anthony Young, MO",
+        "shippingDetail": "Isabella Gonzalez, IL"
+    },
+    {
+        "id": 9,
+        "orderNumber": "ORD990011",
+        "orderDate": "2025-05-10",
+        "amountDetail": "$199.00",
+        "billingDetail": "William Scott, TN",
+        "shippingDetail": "Mia Carter, KY"
+    },
+    {
+        "id": 10,
+        "orderNumber": "ORD223344",
+        "orderDate": "2025-08-14",
+        "amountDetail": "$75.00",
+        "billingDetail": "James Walker, OH",
+        "shippingDetail": "Liam Robinson, PA"
+    }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "productCode": "PRD001",
+    "productName": "Smartphone X",
+    "productStatus": "Pending",
+    "updateDate": "2024-03-13",
+    "isAction": true,
+    "isOrderStatus": true
+  },
+  {
+    "id": 2,
+    "productCode": "PRD002",
+    "productName": "Wireless Headphones",
+    "productStatus": "In Progress",
+    "updateDate": "2024-03-12",
+    "isAction": true,
+    "isOrderStatus": true
+  },
+  {
+    "id": 3,
+    "productCode": "PRD003",
+    "productName": "Gaming Laptop",
+    "productStatus": "Dispatch",
+    "updateDate": "2024-03-10",
+    "isAction": true,
+    "isOrderStatus": true
+  },
+  {
+    "id": 4,
+    "productCode": "PRD004",
+    "productName": "Smartwatch Pro",
+    "productStatus": "Cancelled",
+    "updateDate": "2024-03-11",
+    "isAction": true,
+    "isOrderStatus": true
+  },
+  {
+    "id": 5,
+    "productCode": "PRD005",
+    "productName": "4K LED TV",
+    "productStatus": "In Progress",
+    "updateDate": "2024-03-09",
+    "isAction": true,
+    "isOrderStatus": true
+  }
+]

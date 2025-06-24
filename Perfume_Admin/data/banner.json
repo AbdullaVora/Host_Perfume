@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "desktopImage": "/images/slider-1-desktop-0.webp",
+        "mobileImage": "/images/slider-1-desktop-0.webp",
+        "name": "Banner 1",
+        "relatedTo": "category",
+        "updateDate": "17, Jan 2024 10:39 PM",
+        "isAction": true,
+        "link": "https://picsum.photos/150",
+        "isBanner": true
+    },
+    {
+        "id": 2,
+        "desktopImage": "/images/slider-2-desktop-0.webp",
+        "mobileImage": "/images/slider-2-desktop-0.webp",
+        "name": "Banner 2",
+        "relatedTo": "category",
+        "updateDate": "17, Jan 2024 10:39 PM",
+        "isAction": true,
+        "link": "https://picsum.photos/150/150",
+        "isBanner": true
+    },
+    {
+        "id": 3,
+        "desktopImage": "/images/slider-3-desktop-8.webp",
+        "mobileImage": "/images/slider-3-desktop-8.webp",
+        "name": "Banner 3",
+        "relatedTo": "category",
+        "updateDate": "18, Jan 2024 11:00 AM",
+        "isAction": true,
+        "link": "https://picsum.photos/150/150",
+        "isBanner": true
+    }
+]

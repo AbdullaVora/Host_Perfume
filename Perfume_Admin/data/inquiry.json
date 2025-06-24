@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "product": "Laptop",
+        "name": "John Doe",
+        "email": "johndoe@example.com",
+        "mobile": "9876543210",
+        "message": "Looking for a gaming laptop.",
+        "updateDate": "2025-03-10 10:30 AM",
+        "isInquiry": true
+    },
+    {
+        "id": 2,
+        "product": "Smartphone",
+        "name": "Jane Smith",
+        "email": "janesmith@example.com",
+        "mobile": "9123456789",
+        "message": "Need details about battery life.",
+        "updateDate": "2025-03-09 02:45 PM",
+        "isInquiry": true
+    },
+    {
+        "id": 3,
+        "product": "Headphones",
+        "name": "Michael Brown",
+        "email": "michaelb@example.com",
+        "mobile": "9234567890",
+        "message": "Do these support noise cancellation?",
+        "updateDate": "2025-03-08 09:15 AM",
+        "isInquiry": true
+    },
+    {
+        "id": 4,
+        "product": "Smartwatch",
+        "name": "Emily Davis",
+        "email": "emilyd@example.com",
+        "mobile": "9345678901",
+        "message": "Is it waterproof?",
+        "updateDate": "2025-03-07 11:20 AM",
+        "isInquiry": true
+    },
+    {
+        "id": 5,
+        "product": "Tablet",
+        "name": "David Wilson",
+        "email": "davidw@example.com",
+        "mobile": "9456789012",
+        "message": "Looking for a lightweight model.",
+        "updateDate": "2025-03-06 04:10 PM",
+        "isInquiry": true
+    },
+    {
+        "id": 6,
+        "product": "Gaming Console",
+        "name": "Sophia Martinez",
+        "email": "sophiam@example.com",
+        "mobile": "9567890123",
+        "message": "Does it support 4K gaming?",
+        "updateDate": "2025-03-05 06:30 PM",
+        "isInquiry": true
+    },
+    {
+        "id": 7,
+        "product": "Bluetooth Speaker",
+        "name": "Daniel Anderson",
+        "email": "daniela@example.com",
+        "mobile": "9678901234",
+        "message": "What is the battery backup time?",
+        "updateDate": "2025-03-04 12:00 PM",
+        "isInquiry": true
+    },
+    {
+        "id": 8,
+        "product": "Camera",
+        "name": "Olivia Thomas",
+        "email": "oliviat@example.com",
+        "mobile": "9789012345",
+        "message": "Does it support night mode?",
+        "updateDate": "2025-03-03 08:50 AM",
+        "isInquiry": true
+    },
+    {
+        "id": 9,
+        "product": "Wireless Mouse",
+        "name": "Ethan Harris",
+        "email": "ethanh@example.com",
+        "mobile": "9890123456",
+        "message": "Is it compatible with Mac?",
+        "updateDate": "2025-03-02 03:25 PM",
+        "isInquiry": true
+    },
+    {
+        "id": 10,
+        "product": "External Hard Drive",
+        "name": "Ava White",
+        "email": "avaw@example.com",
+        "mobile": "9901234567",
+        "message": "What is the transfer speed?",
+        "updateDate": "2025-03-01 05:40 PM",
+        "isInquiry": true
+    }
+]

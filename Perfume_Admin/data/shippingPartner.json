@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "methodName": "FedEx",
+      "loginId": "fedexUser123",
+      "loginPassword": "Fedex@456",
+      "isAction": true,
+      "isShippingPartner": true
+    },
+    {
+      "id": 2,
+      "methodName": "DHL",
+      "loginId": "dhlUser789",
+      "loginPassword": "Dhl@123",
+      "isAction": true,
+      "isShippingPartner": true
+    },
+    {
+      "id": 3,
+      "methodName": "UPS",
+      "loginId": "upsUser567",
+      "loginPassword": "Ups@890",
+      "isAction": true,
+      "isShippingPartner": true
+    },
+    {
+      "id": 4,
+      "methodName": "BlueDart",
+      "loginId": "bluedartUser321",
+      "loginPassword": "BlueDart@654",
+      "isAction": true,
+      "isShippingPartner": true
+    },
+    {
+      "id": 5,
+      "methodName": "USPS",
+      "loginId": "uspsUser111",
+      "loginPassword": "Usps@777",
+      "isAction": true,
+      "isShippingPartner": true
+    }
+  ]
+  

@@ -1,0 +1,208 @@
+{
+    "galleryImage": [
+        {
+            "img": "/images/Luxury_perfume_bottle_-1-.png",
+            "title_1": "New",
+            "title_2": "Mans Collection",
+            "category": "Homes & Appliances",
+            "subcategory": "Plants"
+            
+        },
+        {
+            "img": "/images/Luxury_perfume_bottle_-2-.png",
+            "title_1": "New",
+            "title_2": "Womens Collection",
+            "category": "Homes & Appliances",
+            "subcategory": "Lamps"
+        },
+        {
+            "img": "/images/Luxury_perfume_bottle_-3-.png",
+            "title_1": "New",
+            "title_2": "Unisex Collection",
+            "category": "Homes & Appliances",
+            "subcategory": "Chairs"
+        }
+    ],
+    "policy": [
+        {
+            "title": "Extra Shipping"
+        },
+        {
+            "title": "Return Policy"
+        },
+        {
+            "title": "Payment Secured"
+        },
+        {
+            "title": "Money Back Guarantee"
+        }
+    ],
+    "mainArrival": [
+        {
+            "img": "/images/arrival_1.webp"
+        },
+        {
+            "img": "/images/arrival_1_2.webp"
+        },
+        {
+            "img": "/images/arrival_1_3.webp"
+        }
+    ],
+    "arrival": [
+        {
+            "id": 101,
+            "img": "/images/arrival_2_1.avif",
+            "title": "Fiamond Halo Stud",
+            "price": 299
+        },
+        {
+            "id": 102,
+            "img": "/images/arrival_2_2.jpg",
+            "title": "Diamond Halo Stud Dolor",
+            "price": 499
+        },
+        {
+            "id": 103,
+            "img": "/images/arrival_2_3.jpg",
+            "title": "Diamond Halo Stud Amet",
+            "price": 399
+        },
+        {
+            "id": 104,
+            "img": "/images/arrival_2_4.jpg",
+            "title": "Ciamond Halo Stud Cum",
+            "price": 599
+        },
+        {
+            "id": 105,
+            "img": "/images/arrival_2_5.jpg",
+            "title": "Acamond Halo Stud Conse",
+            "price": 699
+        },
+        {
+            "id": 106,
+            "img": "/images/arrival_2_6.jpg",
+            "title": "Diamond Halo Stud Cum",
+            "price": 799
+        },
+        {
+            "id": 107,
+            "img": "/images/arrival_2_7.jpg",
+            "title": "Diamond Halo Stud Aenean",
+            "price": 399
+        },
+        {
+            "id": 108,
+            "img": "/images/arrival_2_8.jpg",
+            "title": "Biamond Halo Stud Aenean",
+            "price": 899
+        }
+    ],
+    "gallery_2": [
+        {
+            "img": "/images/gallery_2_1.avif",
+            "title": "HANGING LIGHT"
+        },
+        {
+            "img": "/images/gallery_2_2.jpg",
+            "title": "SIDE TABLE"
+        }
+    ],
+    "product": [
+        {   "id": 118,
+            "img": "/images/product_1.jpg",
+            "title": "Diamond Halo Stud Sociss",
+            "price": 599
+        },
+        {   "id": 119,
+            "img": "/images/product_2.jpg",
+            "title": "Diamond Halo Stud Magins",
+            "price": 999
+        },
+        {   "id": 120,
+            "img": "/images/product_3.jpg",
+            "title": "Diamond Halo Stud Quis",
+            "price": 899
+        },
+        {   "id": 121,
+            "img": "/images/product_4.jpg",
+            "title": "Diamond Halo Stud Massa",
+            "price": 499
+        }
+    ],
+    "flashDeals": [
+        {
+            "img": "/images/flash_1.jpg",
+            "title": "Acamode Halo Stud Conse",
+            "price": 999
+        },
+        {
+            "img": "/images/flash_2.jpg",
+            "title": "Diamond Halo Stud Donece",
+            "price": 599
+        },
+        {
+            "img": "/images/flash_3.jpg",
+            "title": "Acamode Halo Stud Monte",
+            "price": 699
+        },
+        {
+            "img": "/images/flash_4.jpg",
+            "title": "Acamode Halo Stud Conse",
+            "price": 399
+        },
+        {
+            "img": "/images/flash_5.jpg",
+            "title": "Acamode Halo Stud Donec",
+            "price": 799
+        },
+        {
+            "img": "/images/flash_6.jpg",
+            "title": "Acamode Halo Stud Conse",
+            "price": 899
+        }
+    ],
+    "news": [
+        {
+            "img": "/images/news_1.webp",
+            "title": "Aliquam vitae maximus justo"
+        },
+        {
+            "img": "/images/news_2.jpg",
+            "title": "Pellensque nunc condentum"
+        },
+        {
+            "img": "/images/news_3.jpg",
+            "title": "Proin tincidunt ipsum nec"
+        },
+        {
+            "img": "/images/news_4.jpg",
+            "title": "Quisque dictum leo venenatis"
+        },
+        {
+            "img": "/images/news_5.jpg",
+            "title": "Consectetur adipiscing elit"
+        }
+    ],
+    "gram": [
+        {
+            "img": "/images/gram_1.png"
+        },
+        {
+            "img": "/images/gram_2.png"
+        },
+        {
+            "img": "/images/gram_3.png"
+        },
+        {
+            "img": "/images/gram_4.png"
+        },
+        {
+            "img": "/images/gram_5.png"
+        },
+        {
+            "img": "/images/gram_6.png"
+        }
+    ],
+    "testimonials": []
+}

@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "name": "Size",
+        "parent": "---",
+        "updatedDate": "2025-03-13T10:30:00Z",
+        "isAction": true,
+        "isVariant": true
+    },
+    {
+        "id": 2,
+        "name": "Color",
+        "parent": "---",
+        "updatedDate": "2025-03-13T10:30:00Z",
+        "isAction": true,
+        "isVariant": true
+    },
+    {
+        "id": 3,
+        "name": "Material",
+        "parent": "---",
+        "updatedDate": "2025-03-13T10:30:00Z",
+        "isAction": true,
+        "isVariant": true
+    },
+    {
+        "id": 4,
+        "name": "Blue",
+        "parent": "Color",
+        "updatedDate": "2025-03-13T10:31:00Z",
+        "isAction": true,
+        "isVariant": true
+    },
+    {
+        "id": 5,
+        "name": "Green",
+        "parent": "Color",
+        "updatedDate": "2025-03-13T10:32:00Z",
+        "isAction": true,
+        "isVariant": true
+    },
+    {
+        "id": 6,
+        "name": "Small",
+        "parent": "Size",
+        "updatedDate": "2025-03-13T10:33:00Z",
+        "isAction": true,
+        "isVariant": true
+    },
+    {
+        "id": 7,
+        "name": "Medium",
+        "parent": "Size",
+        "updatedDate": "2025-03-13T10:34:00Z",
+        "isAction": true,
+        "isVariant": true
+    },
+    {
+        "id": 8,
+        "name": "Large",
+        "parent": "Size",
+        "updatedDate": "2025-03-13T10:35:00Z",
+        "isAction": true,
+        "isVariant": true
+    },
+    {
+        "id": 9,
+        "name": "64GB",
+        "parent": "Storage",
+        "updatedDate": "2025-03-13T10:36:00Z",
+        "isAction": true,
+        "isVariant": true
+    },
+    {
+        "id": 10,
+        "name": "128GB",
+        "parent": "Storage",
+        "updatedDate": "2025-03-13T10:37:00Z",
+        "isAction": true,
+        "isVariant": true
+    },
+    {
+        "id": 11,
+        "name": "256GB",
+        "parent": "Storage",
+        "updatedDate": "2025-03-13T10:38:00Z",
+        "isAction": true,
+        "isVariant": true
+    },
+    {
+        "id": 12,
+        "name": "Cotton",
+        "parent": "Material",
+        "updatedDate": "2025-03-13T10:39:00Z",
+        "isAction": true,
+        "isVariant": true
+    },
+    {
+        "id": 13,
+        "name": "Leather",
+        "parent": "Material",
+        "updatedDate": "2025-03-13T10:40:00Z",
+        "isAction": true,
+        "isVariant": true
+    },
+    {
+        "id": 14,
+        "name": "Denim",
+        "parent": "Material",
+        "updatedDate": "2025-03-13T10:41:00Z",
+        "isAction": true,
+        "isVariant": true
+    }
+]

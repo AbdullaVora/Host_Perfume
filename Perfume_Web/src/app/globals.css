@@ -1,0 +1,1039 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: 'jost';
+  src: url('../../public/Fonts/Jost-VariableFont_wght.ttf');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--primary-font);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.PhoneInputInput {
+  border: 0;
+  outline: 0;
+}
+
+
+/* Clean toast style */
+.Toastify button {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+
+
+/* ************************************ Universal Style start ********************************** */
+
+
+/* ************************************ loader Style start ********************************** */
+/* HTML: <div class="loader"></div> */
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f0f0f0;
+  /* background: linear-gradient(135deg, #478585, #34baba 20%, #e6e6e6); */
+
+}
+
+.loader {
+  width: fit-content;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 40px;
+  color: #0000;
+  background: linear-gradient(90deg, #0a5d5d calc(50% + 0.5ch), #000 0) right/calc(200% + 1ch) 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: l7 2s infinite steps(11);
+}
+
+.loader:before {
+  content: "HQ PERFUME..."
+}
+
+
+@keyframes l7 {
+  to {
+    background-position: left
+  }
+}
+
+/* ************************************ loader Style ens ********************************** */
+
+:root {
+  --gutter-padding: 0 100px;
+  --text-color-1: #222222;
+  --text-color-2: #202020;
+  --primary-font: 'jost';
+  --secondary-color: #0a5d5d;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.trans-bg {
+  z-index: 99 !important;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.swal2-html-container {
+  font-size: 28px;
+  /* Change to your preferred size */
+  font-weight: bold;
+}
+
+/* ************************************ Universal Style End ********************************** */
+
+/* ************************************ Header Style Start ********************************** */
+.logo {
+  height: 75px;
+  /* adjust as needed */
+}
+
+.logo img {
+  max-height: 100%;
+  object-fit: contain;
+}
+
+nav a {
+  font-family: var(--primary-font);
+  color: var(--text-color-1);
+  position: relative;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background: var(--text-color-1);
+  transition: width 0.3s ease-in-out;
+
+}
+
+nav a::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2.5px;
+  background: var(--text-color-1);
+  transition: width 0.3s ease-in-out;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+.slide {
+  transition: right 0.5s linear;
+}
+
+.iconHover {
+  cursor: pointer;
+}
+
+.iconHover:hover {
+  background: #bcbcbc;
+}
+
+.sidebar select {
+  outline: none !important;
+  border: none !important;
+}
+
+.sidebar ul li:hover {
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+/* Dropdown styles */
+.dropdown-item-parent {
+  position: relative;
+  /* This establishes a stacking context */
+  z-index: 1000;
+  /* High enough to be above other page elements */
+}
+
+.dropdown-item-parent:hover {
+  z-index: 1001;
+  /* Slightly higher on hover */
+}
+
+.dropdown-item-children {
+  display: none;
+  position: absolute;
+  left: 90%;
+  /* Position to the right of the parent */
+  top: 0;
+  background: white;
+  min-width: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  z-index: 1000;
+  /* Same as parent, but within parent's context */
+}
+
+.dropdown-item-parent:hover .dropdown-item-children {
+  display: block;
+}
+
+.hover-bg-light:hover {
+  background-color: #f8f9fa;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* ************************************ Header Style End ********************************** */
+
+/* ************************************ Banner Style Start ********************************** */
+.transition-opacity {
+  transition: opacity 0.5s ease-in-out;
+}
+
+.banner {
+  /* background-image: url('/images/banner-1.webp'); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-blend-mode: multiply;
+}
+
+h1 {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 30px;
+  width: 100%;
+}
+
+/* h2 {
+  font-size: 30px !important;
+} */
+
+.p-response {
+  font-size: 13px;
+}
+
+.contents {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  text-align: center;
+}
+
+.banner button {
+  transition: background-color 0.2s ease-in;
+}
+
+.banner button:hover {
+  border: 2px solid #0a5d5d !important;
+  background-color: #0a5d5d !important;
+}
+
+/* ************************************ Banner Style End ********************************** */
+
+/* ************************************ Gallery Style Start ********************************** */
+
+.gallery .box {
+  overflow: hidden;
+  height: 350px;
+}
+
+
+.gallery-box img {
+  transition: transform 0.3s ease;
+}
+
+.gallery-box:hover img {
+  transform: scale(1.02);
+}
+
+
+.gallery .box img {
+  margin-left: 28%;
+  width: 350px;
+  transition: transform 1s ease-in;
+}
+
+.gallery .box:hover img {
+  transform: scale(1.2);
+}
+
+.gallery h2 {
+  top: 30%;
+  left: 34%;
+  /* font-size: 48px; */
+  font-size: 33px !important;
+  margin: 0 10px;
+}
+
+.gallery p {
+  top: 50%;
+  /* left: 27%; */
+  /* font-size: 22px !important; */
+  opacity: 60%;
+  font-size: 18px !important;
+  left: 28%;
+}
+
+.gallery button {
+  bottom: 25%;
+  /* left: 20%; */
+  border: 0;
+  transition: background 0.2s ease-out;
+  left: 25%;
+}
+
+.gallery button:hover {
+  background: var(--secondary-color) !important;
+}
+
+/* ************************************ Gallery Style End ********************************** */
+
+/* ************************************ New Arrival Style Start ********************************** */
+/* Arrival Card Styling */
+.arrivalCard,
+.flashCard {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.arrivalCard .img {
+  height: 230px;
+}
+
+.flashCard {
+  flex: 1;
+  box-sizing: border-box;
+}
+
+
+.arrivalCard .img,
+.flashCard .img {
+  display: block;
+  overflow: hidden;
+}
+
+.arrivalCard .img img,
+.flashCard .img img {
+  width: 100% !important;
+  height: 100% !important;
+  transition: transform 1s ease-in-out;
+}
+
+.arrivalCard:hover .img img,
+.flashCard:hover .img img {
+  transform: scale(1.3);
+}
+
+.arrivalCard button {
+  position: absolute;
+  bottom: -50px;
+  /* Start hidden below the card */
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  background-color: transparent;
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color) !important;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Slide button up and show it on hover */
+.arrivalCard-hoverMain:hover button {
+  bottom: 0;
+  /* Slide to visible position */
+  opacity: 1;
+  color: white;
+}
+
+.arrivalCard-hoverWish:hover button {
+  bottom: -10px;
+  /* Slide to visible position */
+  opacity: 1;
+  color: white;
+}
+
+.arrivalCard button:hover {
+  background: var(--secondary-color) !important;
+  color: white !important;
+  transition: background 0.4s ease-out;
+}
+
+.arrivalCard .cart,
+.flashCard .cart,
+.star {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background-color: white;
+  padding: 9px 12px;
+  border-radius: 50%;
+  color: var(--secondary-color);
+  cursor: pointer;
+  transform: scale(0);
+  transition: all 0.3s ease-out;
+}
+
+
+.arrivalCard .star,
+.flashCard .star {
+  top: 56px;
+  padding: 9px 12px;
+}
+
+.arrivalCard .cart:hover,
+.arrivalCard .star:hover {
+  color: white;
+  background-color: var(--secondary-color);
+}
+
+.arrivalCard:hover .cart,
+.arrivalCard:hover .star,
+.flashCard .cart:hover,
+.flashCard .star:hover {
+  transform: scale(1);
+}
+
+/* ************************************ New Arrival Style End ********************************** */
+
+/* ************************************ Gallery_2 Style Start ********************************** */
+.gallery_2 .box_2 {
+  display: block;
+  overflow: hidden;
+}
+
+.gallery_2 .box_2 img {
+  transition: all 1s ease-out;
+}
+
+.gallery_2 .box_2:hover img {
+  transform: scale(1.2);
+}
+
+/* ************************************ Gallery_2 Style End ********************************** */
+
+/* ************************************ Our Products Style Start ********************************** */
+.ourProducts .centerCard button,
+.latestNews .content button,
+.deal .content button {
+  border: 2px solid var(--secondary-color);
+  color: var(--secondary-color);
+  transition: all 0.3s ease-out;
+}
+
+.ourProducts .centerCard button:hover,
+.latestNews .content button:hover,
+.deal .content button:hover {
+  background-color: var(--secondary-color) !important;
+  color: white !important;
+}
+
+/* ************************************ Our Products Style End ********************************** */
+
+/* ************************************ Testimonial Style Start ********************************** */
+/* Ensure the container and Swiper wrapper are properly sized */
+.swiper-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.swiper-wrapper {
+  display: flex;
+  align-items: stretch;
+  /* Make sure slides take equal height */
+}
+
+.swiper-pagination-bullet {
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+/* ************************************ Testimonial Style End ********************************** */
+
+/* ************************************ Latest News Style Start ********************************** */
+.latestNews hr {
+  width: 150px;
+  border: 1.5px solid black !important;
+  margin-left: 20%;
+}
+
+/* ************************************ Latest News Style End ********************************** */
+
+/* ************************************ Deal Style Start ********************************** */
+.bg {
+  background-color: #f5f5f5;
+}
+
+/* ************************************ Deal Style End ********************************** */
+
+/* ************************************ Gram Style Start ********************************** */
+.gramGallery .img {
+  display: block;
+  overflow: hidden;
+}
+
+.gramGallery img {
+  transition: all 1.5s ease-out;
+}
+
+.gramGallery img:hover {
+  transform: scale(1.1);
+}
+
+/* ************************************ Gram Style End ********************************** */
+
+/* ************************************ Footer Style Start ********************************** */
+footer button {
+  border: 2px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  color: white;
+  transition: all .2s linear;
+}
+
+footer button:hover {
+  background-color: white;
+  color: black;
+}
+
+footer .icon {
+  cursor: pointer;
+  transition: all .2s linear;
+}
+
+footer .icon:hover {
+  color: var(--secondary-color) !important;
+}
+
+/* ************************************ Footer Style End ********************************** */
+
+
+/* ************************************ COllection Style Start ********************************** */
+.collection {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 300px;
+}
+
+/* Filter options hover effect */
+.filterMain .bg-light {
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.filterMain .bg-light:hover,
+.filterMain .btn-dark:hover {
+  background-color: rgb(57, 57, 57) !important;
+  color: white !important;
+}
+
+/* Clear All button customization */
+.filterMain .btn-dark {
+  padding: 0.75rem 1rem;
+  background-color: var(--secondary-color);
+}
+
+
+/* ************************************ COllection Style End ********************************** */
+
+
+/* ************************************ DropDOwn Style Start ********************************** */
+/* Add this CSS to your stylesheet */
+.DropBox {
+  max-height: 0;
+  overflow: hidden;
+  color: #000;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.DropBox.visible {
+  max-height: 200px;
+  /* Adjust height as needed */
+}
+
+.DropBox:hover .DropBox span {
+  color: white !important;
+}
+
+/* ************************************ DropDOwn Style End ********************************** */
+
+/* ************************************ Product Detail Page Style End ********************************** */
+.pr-detail-span {
+  font-size: 12px !important;
+}
+
+.pr-detail-span:hover {
+  color: var(--secondary-color) !important;
+}
+
+.bar::after {
+  content: '';
+  width: 100% !important;
+  height: 8px !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: lightgray;
+}
+
+.detail-btn-1 {
+  background-color: var(--secondary-color);
+  color: white;
+  transition: background-color 0.3s ease-out;
+  border: 2px solid var(--secondary-color);
+}
+
+.detail-btn-1:hover {
+  background-color: transparent;
+  color: var(--secondary-color);
+}
+
+.detail-btn-2 {
+  background-color: transparent;
+  color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+}
+
+.detail-btn-2:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.other-details .policy li {
+  position: relative;
+  cursor: pointer;
+}
+
+.other-details .policy li::after {
+  content: '';
+  width: 0;
+  height: 3px;
+  background-color: black;
+  position: absolute;
+  bottom: -105%;
+  left: 0;
+  transition: width 0.2s ease-in-out;
+}
+
+.other-details .policy li:hover::after {
+  width: 100%;
+}
+
+.other-details .policy .active-tab::before {
+  content: '';
+  width: 100%;
+  height: 3px;
+  background-color: black;
+  position: absolute;
+  bottom: -105%;
+  left: 0;
+}
+
+
+/* ************************************ Product Detail Page Style End ********************************** */
+
+/* ************************************ contact us Page Style start ********************************** */
+.contact form input::placeholder,
+textarea::placeholder {
+  font-size: 12px !important;
+}
+
+.contact form button {
+  border: 2px solid var(--secondary-color);
+  background: var(--secondary-color);
+}
+
+.contact form button:hover {
+  background-color: #083e21;
+  color: var(--secondary-color);
+}
+
+.social {
+  margin: 0 5px;
+  color: white;
+  padding: 8px;
+  border-radius: 20px;
+  background-color: var(--secondary-color) !important;
+}
+
+.social:hover {
+  background-color: #083e21 !important;
+}
+
+/* ************************************ contact us Page Style End ********************************** */
+
+/* ************************************ login Style start ********************************** */
+.login form input::placeholder {
+  font-size: 10px;
+  opacity: 60%;
+  font-weight: bold;
+}
+
+.login .greenHover:hover {
+  color: var(--secondary-color);
+}
+
+.login button,
+.Cartbar button,
+.orderbtn {
+  background-color: var(--secondary-color);
+}
+
+.login button:hover,
+.Cartbar button:hover,
+.orderbtn:hover {
+  background-color: #083e21;
+}
+
+/* ************************************ login Style end ********************************** */
+
+/* ************************************ cart Style start ********************************** */
+.cartbtn {
+  background-color: transparent !important;
+  border: 2px solid var(--secondary-color);
+  color: #000;
+}
+
+.cartbtn:hover {
+  background-color: var(--secondary-color) !important;
+  color: white;
+}
+
+/* ************************************ cart Style end ********************************** */
+
+
+/* Timeline Styles */
+/* .timeline-container {
+  position: relative;
+  padding-left: 40px;
+}
+
+.timeline-step {
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.timeline-step.last-step {
+  padding-bottom: 0;
+}
+
+.timeline-marker-container {
+  position: absolute;
+  left: -40px;
+  top: 0;
+}
+
+.timeline-marker {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #e9ecef;
+  border: 3px solid white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+
+.timeline-marker.completed {
+  background-color: #0A5D5D;
+}
+
+.timeline-marker.current {
+  background-color: #0A5D5D;
+  animation: pulse 2s infinite;
+}
+
+.timeline-connector {
+  position: absolute;
+  left: 11px;
+  top: 24px;
+  bottom: 0;
+  width: 2px;
+  background-color: #e9ecef;
+  z-index: 1;
+}
+
+.timeline-connector.completed {
+  background-color: #0A5D5D;
+}
+
+.timeline-content {
+  padding-left: 20px;
+}
+
+.status-label {
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #6c757d;
+}
+
+.status-label.completed {
+  color: #0A5D5D;
+}
+
+.status-description {
+  font-size: 14px;
+  color: #6c757d;
+  margin-bottom: 8px;
+}
+
+.status-description.completed {
+  color: #495057;
+}
+
+.current-badge {
+  margin-left: 10px;
+  padding: 2px 8px;
+  background-color: #0A5D5D;
+  color: white;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.item-count {
+  font-size: 12px;
+  color: #6c757d;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.status-info {
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  padding: 12px;
+  margin-top: 8px;
+}
+
+.status-info p {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #495057;
+}
+
+.tracking-link,
+.review-btn,
+.support-btn {
+  color: #0A5D5D;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.tracking-link:hover,
+.review-btn:hover,
+.support-btn:hover {
+  text-decoration: underline;
+}
+
+.checkmark {
+  width: 16px;
+  height: 16px;
+  fill: white;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(10, 93, 93, 0.4);
+  }
+
+  70% {
+    box-shadow: 0 0 0 10px rgba(10, 93, 93, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(10, 93, 93, 0);
+  }
+}
+
+/* Status Breakdown Box */
+/* .status-breakdown-box {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 15px;
+  border: 1px solid #e9ecef;
+}
+
+.status-badge {
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+}
+
+.status-badge.pending {
+  background-color: #6c757d;
+}
+
+.status-badge.processing {
+  background-color: #17a2b8;
+}
+
+.status-badge.shipped {
+  background-color: #007bff;
+}
+
+.status-badge.delivered {
+  background-color: #28a745;
+}
+
+.status-badge.cancelled {
+  background-color: #dc3545;
+}
+
+.mixed-status-badge {
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.status-bars {
+  margin-top: 10px;
+}
+
+.status-bar-item {
+  margin-bottom: 8px;
+}
+
+.status-bar-item:last-child {
+  margin-bottom: 0;
+}
+
+.progress {
+  height: 8px;
+  background-color: #e9ecef;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 4px;
+}
+
+.progress-bar {
+  height: 100%;
+}
+
+.progress-bar.pending {
+  background-color: #6c757d;
+}
+
+.progress-bar.processing {
+  background-color: #17a2b8;
+}
+
+.progress-bar.shipped {
+  background-color: #007bff;
+}
+
+.progress-bar.delivered {
+  background-color: #28a745;
+}
+
+.progress-bar.cancelled {
+  background-color: #dc3545;
+}
+
+.item-count-box {
+  background-color: #f8f9fa;
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.item-count {
+  font-size: 13px;
+  color: #495057;
+  display: block;
+}
+
+.status-note {
+  font-size: 12px;
+  color: #6c757d;
+  display: block;
+  margin-top: 4px;
+} */
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+} */

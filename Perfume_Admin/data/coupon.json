@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "name": "XYZ",
+        "type": "amount",
+        "typeDetail": "₹8000",
+        "minAmount": "₹999",
+        "dateDetail": "25-12-2023 To 25-01-2024",
+        "updateDate": "25, Dec 2023 03:58 pm",
+        "isAction": true,
+        "isCoupon": true
+    },
+    {
+        "id": 2,
+        "name": "COUPON",
+        "type": "amount",
+        "typeDetail": "₹1500",
+        "minAmount": "₹2000",
+        "dateDetail": "13-12-2023 To 13-01-2024",
+        "updateDate": "13, Dec 2023 06:43 pm",
+        "isAction": true,
+        "isCoupon": true
+    },
+    {
+        "id": 3,
+        "name": "DISCOUNT50",
+        "type": "amount",
+        "typeDetail": "₹5000",
+        "minAmount": "₹1000",
+        "dateDetail": "01-01-2024 To 31-01-2024",
+        "updateDate": "01, Jan 2024 12:00 pm",
+        "isAction": true,
+        "isCoupon": true
+    },
+    {
+        "id": 4,
+        "name": "OFFER2024",
+        "type": "percentage",
+        "typeDetail": "10%",
+        "minAmount": "₹1500",
+        "dateDetail": "05-01-2024 To 05-02-2024",
+        "updateDate": "05, Jan 2024 09:30 am",
+        "isAction": true,
+        "isCoupon": true
+    },
+    {
+        "id": 5,
+        "name": "SAVE20",
+        "type": "percentage",
+        "typeDetail": "20%",
+        "minAmount": "₹2500",
+        "dateDetail": "10-01-2024 To 10-02-2024",
+        "updateDate": "10, Jan 2024 02:15 pm",
+        "isAction": true,
+        "isCoupon": true
+    },
+    {
+        "id": 6,
+        "name": "MEGADEAL",
+        "type": "amount",
+        "typeDetail": "₹3000",
+        "minAmount": "₹1200",
+        "dateDetail": "15-01-2024 To 15-02-2024",
+        "updateDate": "15, Jan 2024 05:45 pm",
+        "isAction": true,
+        "isCoupon": true
+    },
+    {
+        "id": 7,
+        "name": "FESTIVE25",
+        "type": "percentage",
+        "typeDetail": "25%",
+        "minAmount": "₹3000",
+        "dateDetail": "20-01-2024 To 20-02-2024",
+        "updateDate": "20, Jan 2024 08:00 am",
+        "isAction": true,
+        "isCoupon": true
+    }
+]

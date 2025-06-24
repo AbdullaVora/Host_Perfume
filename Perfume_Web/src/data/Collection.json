@@ -1,0 +1,52 @@
+{
+    "product": [
+        {
+            "id": 109,
+            "img": "/images/collection_1.jpg",
+            "title": "Fiamond Halo Stud",
+            "price": 399
+        },
+        {
+            "id": 110,
+            "img": "/images/arrival_2_2.jpg",
+            "title": "Diamond Halo Stud Dolor",
+            "price": 449
+        },
+        {
+            "id": 112,
+            "img": "/images/arrival_2_3.jpg",
+            "title": "Diamond Halo Stud Amet",
+            "price": 299
+        },
+        {
+            "id": 113,
+            "img": "/images/arrival_2_4.jpg",
+            "title": "Ciamond Halo Stud Cum",
+            "price": 699
+        },
+        {
+            "id": 114,
+            "img": "/images/arrival_2_5.jpg",
+            "title": "Acamond Halo Stud Conse",
+            "price": 899
+        },
+        {
+            "id": 115,
+            "img": "/images/arrival_2_6.jpg",
+            "title": "Diamond Halo Stud Cum",
+            "price": 399
+        },
+        {
+            "id": 116,
+            "img": "/images/arrival_2_7.jpg",
+            "title": "Diamond Halo Stud Aenean",
+            "price": 299
+        },
+        {
+            "id": 117,
+            "img": "/images/arrival_2_8.jpg",
+            "title": "Biamond Halo Stud Aenean",
+            "price": 599
+        }
+    ]
+}

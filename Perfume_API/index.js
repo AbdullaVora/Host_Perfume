@@ -76,7 +76,7 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads'), {
 }));
 
 app.get('/', (req, res) => {
-    res.send('Welcome To My FurStore API!! Server Running.....');
+    res.send('Welcome To HQ PERFUME API!! Server Running.....');
 });
 
 app.use("/api/auth", loginRoute)

@@ -43,7 +43,8 @@ const corsOptions = {
             "https://perfume-web-kappa.vercel.app",
             "https://perfume-5grqmwvd5-abdullavoras-projects.vercel.app",
             "https://perfume-admin-lqmtolplk-abdullavoras-projects.vercel.app",
-            "https://perfume-admin-xi.vercel.app"
+            "https://perfume-admin-xi.vercel.app",
+            "https://hqperfume.in"
         ];
 
         if (!origin || allowedOrigins.includes(origin)) {

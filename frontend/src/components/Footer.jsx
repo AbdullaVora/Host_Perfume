@@ -84,7 +84,7 @@ import { FaPinterestP } from "react-icons/fa";
 import Link from 'next/link';
 
 const Footer = () => {
-    const footer = [{ logo: <IoLocationOutline />, title: '2357 Gordon Street, CA' }, { logo: <CiPhone />, title: '123-456-7890' }, { logo: <MdOutlineAttachEmail />, title: 'info@domain.com' }]
+    const footer = [{ logo: <IoLocationOutline />, title: 'River Point, New Rander Road, Surat, Gujarat, India - 395009' }, { logo: <CiPhone />, title: '+91 63557 72763' }, { logo: <MdOutlineAttachEmail />, title: 'hqperfume63@gmail.com' }]
     return (
         <>
             <footer className='py-5 mt-5'>
@@ -138,6 +138,9 @@ const Footer = () => {
                             </Link>
                             <Link href="/contact" className='text-decoration-none text-black'>
                                 <h5 className='mt-1 fw-normal fs-6 opacity-75'>Contact Us</h5>
+                            </Link>
+                            <Link href="/privacy-policy" className='text-decoration-none text-black'>
+                                <h5 className='mt-1 fw-normal fs-6 opacity-75'>Privacy Policy</h5>
                             </Link>
                         </div>
 

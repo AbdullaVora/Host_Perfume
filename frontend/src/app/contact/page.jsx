@@ -195,14 +195,14 @@ const ContactUs = () => {
                         </div>
                         <div className="col-lg-6 col-md-12 px-lg-5 px-md-3">
                             <p className='fs-6 mb-3'><span className='fw-bold'>Address: </span>123 Suspendis matti, Visaosang Building VST District, NY Accums, North American</p>
-                            <p className='mb-3'><span className='fw-bold'>Email: </span>support@domain.com</p>
-                            <p className='mb-3'><span className='fw-bold'>Call Us: </span>(012)-345-67890</p>
-                            <p className='mb-4'><span className='fw-bold'>Opening Store: </span>Our store has re-opened for shopping, exchanges every day 11am to 7pm</p>
+                            <p className='mb-3'><span className='fw-bold'>Email: </span>hqperfume63@gmail.com</p>
+                            <p className='mb-3'><span className='fw-bold'>Call Us: </span>+91 63557 72763</p>
+                            {/* <p className='mb-4'><span className='fw-bold'>Opening Store: </span>Our store has re-opened for shopping, exchanges every day 11am to 7pm</p> */}
                             <div className="d-flex gap-3">
                                 <a href="#" className='text-dark'><FaFacebookF className='social' size={45} /></a>
                                 <a href="#" className='text-dark'><FaInstagram className='social' size={45} /></a>
-                                <a href="#" className='text-dark'><FaPinterestP className='social' size={45} /></a>
-                                <a href="#" className='text-dark'><FaTwitter className='social' size={45} /></a>
+                                {/* <a href="#" className='text-dark'><FaPinterestP className='social' size={45} /></a> */}
+                                {/* <a href="#" className='text-dark'><FaTwitter className='social' size={45} /></a> */}
                             </div>
                         </div>
                     </div>

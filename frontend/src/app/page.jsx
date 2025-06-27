@@ -245,7 +245,7 @@ export default function Home() {
       {/* Gallery End */}
 
       {/* Policy Start */}
-      <div className="policy py-2 mt-5" data-aos="fade-up" data-aos-delay="200">
+      <div className="policy py-2 mt-5">
         <div className="container">
           <div className="row">
             {policy.map((card, key) => (
@@ -290,7 +290,7 @@ export default function Home() {
           </div>
         </div>
       </div> */}
-      <div className="container" data-aos='zoom-out'>
+      <div className="container">
         <div className="arrival py-3 py-md-5 mt-3 mt-md-5">
           <h2 className='text-center display-5 fw-normal mb-3 mb-md-5'>New Arrival</h2>
           <div className="sideCards col-12 d-flex flex-wrap justify-content-between">
@@ -314,7 +314,7 @@ export default function Home() {
       {/* New Arrival End */}
 
       {/* ****************************** Gallery_2 Start ***************************** */}
-      <div className="gallery_2 mt-3" data-aos="fade-left">
+      <div className="gallery_2 mt-3">
         <div className="container">
           <div className="row">
             {gallery_2.map((box, index) => (
@@ -419,7 +419,7 @@ export default function Home() {
           </div>
         </div>
       </div> */}
-      <div className="container" data-aos='zoom-out'>
+      <div className="container">
         <div className="our-products py-3 py-md-5 mt-3 mt-md-5">
           <h2 className='text-center display-5 fw-normal mb-3 mb-md-5'>Our Products</h2>
           <div className="sideCards col-12 d-flex flex-wrap justify-content-between">
@@ -444,7 +444,7 @@ export default function Home() {
       {/* Our Products End */}
 
       {/* Testimonial Start */}
-      <div className="testimonial" data-aos="fade-up">
+      <div className="testimonial">
         <div className="container">
           <h2 className="text-center display-5 fw-normal mb-5">Testimonials</h2>
           <Swiper
@@ -477,7 +477,7 @@ export default function Home() {
       {/* Testimonial End */}
 
       {/* ****************************** Flash Deals Start ***************************** */}
-      <div className="flashDeals py-5 mt-5" data-aos='zoom-out'>
+      <div className="flashDeals py-5 mt-5">
         <div className="container">
           <h2 className="text-center display-5 fw-normal mb-5">Flash Deals</h2>
           <Swiper

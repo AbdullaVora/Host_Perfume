@@ -245,7 +245,7 @@ export default function Home() {
       {/* Gallery End */}
 
       {/* Policy Start */}
-      <div className="policy py-2 mt-5">
+      {/* <div className="policy py-2 mt-5">
         <div className="container">
           <div className="row">
             {policy.map((card, key) => (
@@ -258,7 +258,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Policy End */}
 
       {/* New Arrival Start */}

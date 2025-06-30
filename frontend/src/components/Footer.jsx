@@ -142,6 +142,15 @@ const Footer = () => {
                             <Link href="/privacy-policy" className='text-decoration-none text-black'>
                                 <h5 className='mt-1 fw-normal fs-6 opacity-75'>Privacy Policy</h5>
                             </Link>
+                            <Link href="/shipping-policy" className='text-decoration-none text-black'>
+                                <h5 className='mt-1 fw-normal fs-6 opacity-75'>Shipping Policy</h5>
+                            </Link>
+                            <Link href="/terms-and-conditions" className='text-decoration-none text-black'>
+                                <h5 className='mt-1 fw-normal fs-6 opacity-75'>Terms and Conditions</h5>
+                            </Link>
+                            <Link href="/cancellation-policy" className='text-decoration-none text-black'>
+                                <h5 className='mt-1 fw-normal fs-6 opacity-75'>Return and Cancellation Policy</h5>
+                            </Link>
                         </div>
 
                         {/* Fifth Column - Newsletter and Social */}

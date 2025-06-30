@@ -398,7 +398,7 @@ const page = () => {
                         {/* Price - grid layout on mobile */}
                         <div className="col-6 col-md-1 mb-2 mb-md-0">
                           <span className="d-md-none fw-bold me-2">Price:</span>
-                          {product.product.price}
+                          ₹{product.product.price}
                         </div>
 
                         {/* Quantity - grid layout on mobile */}

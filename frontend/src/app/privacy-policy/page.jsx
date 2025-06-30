@@ -78,7 +78,7 @@ const PrivacyPolicy = () => {
                         </section>
 
                         {/* Return Policy */}
-                        <section className="mb-4 mb-md-5">
+                        {/* <section className="mb-4 mb-md-5">
                             <h3 className='fs-3 fs-md-2 fw-bold mb-3 mb-md-4'>Return & Refund Policy</h3>
                             <div className="bg-gray-100 p-3 p-md-4 rounded-3">
                                 <h4 className='fs-4 fw-bold mb-2'>No Return Policy</h4>
@@ -89,7 +89,7 @@ const PrivacyPolicy = () => {
                                     If you receive a damaged or incorrect item, please contact us within 48 hours of delivery at <span className="fw-bold">hqperfume63@gmail.com</span> with your order number and photos of the issue.
                                 </p>
                             </div>
-                        </section>
+                        </section> */}
 
                         {/* Payment Security */}
                         <section className="mb-4 mb-md-5">

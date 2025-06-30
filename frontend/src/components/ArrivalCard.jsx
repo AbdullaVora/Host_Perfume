@@ -218,7 +218,7 @@ const ArrivalCard = ({ id, img, title, price, isCollection, iswish }) => {
           {title}
         </h6>
         <span style={{ display: hover && !isCollection ? "none" : "block" }}>
-          {price}
+          ₹{price}
         </span>
       </div>
 

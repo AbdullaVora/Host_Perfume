@@ -464,7 +464,7 @@ const CartPage = () => {
                                                     {/* Price with variant dropdowns added */}
                                                     <div className="col-6 col-md-2 mb-2 mb-md-0">
                                                         <div className="d-md-none fw-bold">Price:</div>
-                                                        <span>{item.variant.price}</span>
+                                                        <span>₹{item.variant.price}</span>
 
                                                         {/* Variant dropdowns - added next to price */}
                                                         {Object.keys(availableVariants).length > 0 && (
@@ -566,7 +566,7 @@ const CartPage = () => {
 
                                                     <div className="col-6 col-md-2 mb-2 mb-md-0">
                                                         <div className="d-md-none fw-bold">Subtotal:</div>
-                                                        <span>{(item.variant.price * item.quantity).toFixed(2)}</span>
+                                                        <span>₹{(item.variant.price * item.quantity).toFixed(2)}</span>
                                                     </div>
 
                                                     <div className="col-6 col-md-1 text-end d-flex align-items-center gap-2 text-md-center">
@@ -598,7 +598,7 @@ const CartPage = () => {
                                 <div className="total p-3" style={{ backgroundColor: '#f2f2f2' }}>
                                     <div className="d-flex align-items-center justify-content-between mb-2">
                                         <span className='fw-bold' style={{ fontSize: '14px' }}>TOTAL:</span>
-                                        <span className='fs-4 fw-bold'>{total.toFixed(2)}</span>
+                                        <span className='fs-4 fw-bold'>₹{total.toFixed(2)}</span>
                                     </div>
                                     <div className="d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between mb-2">
                                         <span className='fw-bold mb-1 mb-md-0' style={{ fontSize: '14px' }}>SHIPPING:</span>
@@ -608,7 +608,7 @@ const CartPage = () => {
                                         <span className='fw-bold' style={{ color: 'green', fontSize: '14px' }}>Congratulations! You've got free shipping!</span>
                                         <FaTruckFast size={26} style={{ marginLeft: '10px', color: 'green' }} />
                                     </div>
-                                    <span style={{ fontSize: '12px', color: '#6b7280' }}>Free shipping for any orders above <span className='fw-bold' style={{ color: 'green' }}>200.00</span></span>
+                                    <span style={{ fontSize: '12px', color: '#6b7280' }}>Free shipping for any orders above <span className='fw-bold' style={{ color: 'green' }}>₹200.00</span></span>
                                     <span className='fw-bold d-block my-2' style={{ fontSize: '14px' }}>Add a note to your order :</span>
                                     <textarea
                                         name="note"

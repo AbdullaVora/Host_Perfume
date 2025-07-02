@@ -310,15 +310,15 @@ const VideoBanner = ({ videoss = [] }) => {
   const [isTransitioning, setIsTransitioning] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [requiresInteraction, setRequiresInteraction] = useState(false);
-  const [dimensions, setDimensions] = useState({ 
+  const [dimensions, setDimensions] = useState({
     width: typeof window !== 'undefined' ? window.innerWidth : 0,
-    height: typeof window !== 'undefined' ? window.innerHeight : 0 
+    height: typeof window !== 'undefined' ? window.innerHeight : 0
   });
 
   // Responsive video sources
   const videos = React.useMemo(() => {
     if (!videoss.length) return [];
-    
+
     // Determine appropriate video source based on screen size
     return videoss.map(video => {
       if (dimensions.width <= 640) { // Mobile
@@ -472,19 +472,32 @@ const VideoBanner = ({ videoss = [] }) => {
       )}
 
       {videos.map((src, index) => (
+        // <video
+        //   key={`video-${index}`}
+        //   ref={videoRefs[index]}
+        //   muted
+        //   playsInline
+        //   autoPlay={index === activeIndex}
+        //   className={`video-layer ${
+        //     index === activeIndex ? 'active' :
+        //     (index === nextIndex && isTransitioning) ? 'next' : 'hidden'
+        //   }`}
+        //   src={src}
+        //   onError={(e) => console.error(`Video ${index} error`, e)}
+        // />
         <video
           key={`video-${index}`}
           ref={videoRefs[index]}
+          src={src}
+          autoPlay
           muted
           playsInline
-          autoPlay={index === activeIndex}
-          className={`video-layer ${
-            index === activeIndex ? 'active' :
-            (index === nextIndex && isTransitioning) ? 'next' : 'hidden'
-          }`}
-          src={src}
+          className={`video-layer ${index === activeIndex ? 'active' :
+              (index === nextIndex && isTransitioning) ? 'next' : 'hidden'
+            }`}
           onError={(e) => console.error(`Video ${index} error`, e)}
         />
+
       ))}
 
       <style jsx>{`

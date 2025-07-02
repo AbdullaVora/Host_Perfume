@@ -426,7 +426,7 @@ const createOrder = async (req, res) => {
                         key: process.env.RAZORPAY_KEY_ID,
                         amount: amount,
                         currency: currency,
-                        name: "Your Store Name",
+                        name: "HQ PERFUME",
                         description: `Order #${savedTempOrder.orderCode}`
                     }
                 });

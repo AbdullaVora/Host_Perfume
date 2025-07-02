@@ -2350,7 +2350,7 @@ const CheckoutPage = () => {
         key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID,
         amount: orderResponse.data.razorpay.amount,
         currency: orderResponse.data.razorpay.currency,
-        name: orderResponse.data.razorpay.name,
+        name: orderResponse.data.razorpay.name || 'HQ PERFUME',
         description: orderResponse.data.razorpay.description,
         order_id: orderResponse.data.razorpay.orderId,
         handler: async function (response) {

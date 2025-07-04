@@ -191,9 +191,8 @@ const ArrivalCard = ({ id, img, title, price, isCollection, iswish }) => {
     // </div>
 
     <div
-      className={`arrivalCard position-relative ${ iswish ? 'overflow-visible arrivalCard-hoverWish' : 'overflow-hidden arrivalCard-hoverMain' } px-2 pt-2 ${
-        iswish ? "mx-2" : ""
-      }`}
+      className={`arrivalCard position-relative ${iswish ? 'overflow-visible arrivalCard-hoverWish' : 'overflow-hidden arrivalCard-hoverMain'} px-2 pt-2 ${iswish ? "mx-2" : ""
+        }`}
     >
       <div
         className="img shadow-lg"

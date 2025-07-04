@@ -1,3 +1,5 @@
+import { alternateRefs } from "../../../../next-sitemap.config";
+
 // Example mock fetch
 async function fetchProductById(id) {
     const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/dashboard/IdpProduct/${id}`);
@@ -8,24 +10,27 @@ async function fetchProductById(id) {
 export async function generateMetadata({ params }) {
     const { id } = params;
     const product = await fetchProductById(id);
-    console.log("params:", product.product);
+    // console.log("params:", product.product);
 
     if (!product) {
         return {
-            title: "Product Not Found - HQ PERFUME",
+            title: "Product Not Found - HQ PERFUME - Premium, Long-Lasting Luxury Perfumes",
             description: "We couldn't find the fragrance you're looking for.",
         };
     }
 
     return {
-        title: `${product?.product?.metaTitle} - HQ PERFUME`,
+        title: `${product?.product?.metaTitle} - HQ PERFUME - Premium, Long-Lasting Luxury Perfumes`,
         description: product?.product?.metaDescription || "Discover luxurious scents at HQ PERFUME.",
+        alternates: {
+            canonical: `${process.env.NEXT_FRONTEND_URL}/productDetails/${id}`
+        },
         keywords: `${product?.product?.metaKeywords}, HQ PERFUME, luxury perfume, long-lasting fragrance`,
         authors: [{ name: "HQ PERFUME" }],
         creator: "HQ PERFUME",
         metadataBase: new URL(process.env.NEXT_FRONTEND_URL), // for full OG image paths
         openGraph: {
-            title: `${product?.product?.metaTitle} - HQ PERFUME`,
+            title: `${product?.product?.metaTitle} - HQ PERFUME - Premium, Long-Lasting Luxury Perfumes`,
             description: product?.product?.metaDescription,
             url: `${process.env.NEXT_FRONTEND_URL}/${id}`,
             type: "website",
@@ -41,7 +46,7 @@ export async function generateMetadata({ params }) {
         },
         twitter: {
             card: "summary_large_image",
-            title: `${product?.product?.metaTitle} - HQ PERFUME`,
+            title: `${product?.product?.metaTitle} - HQ PERFUME - Premium, Long-Lasting Luxury Perfumes`,
             description: product?.product?.metaDescription,
             images: [product?.product?.main],
         },

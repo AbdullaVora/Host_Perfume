@@ -207,7 +207,7 @@ export const addProductToCart = createAsyncThunk(
 
         try {
             const state = getState();
-            const products = state.Home?.Home?.products || [];
+            const products = state?.Collection?.products || [];
 
             if (!products.length) {
                 console.error('Products not loaded yet');

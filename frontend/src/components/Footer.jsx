@@ -165,14 +165,16 @@ const Footer = () => {
                                     <FaFacebookF className='icon' size={20} />
                                 </div>
                                 <div className="imstagram mx-2">
-                                    <FaInstagram className='icon' size={20} />
+                                    <Link target='_blank' className='text-decoration-none text-black' href="https://www.instagram.com/hq_perfume_2025">
+                                        <FaInstagram className='icon' size={20} />
+                                    </Link>
                                 </div>
-                                <div className="pinterset mx-2">
+                                {/* <div className="pinterset mx-2">
                                     <FaPinterestP className='icon' size={20} />
                                 </div>
                                 <div className="twiter mx-2">
                                     <FaTwitter className='icon' size={20} />
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

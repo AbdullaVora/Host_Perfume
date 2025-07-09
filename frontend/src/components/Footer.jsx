@@ -179,6 +179,9 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+                    <div className="text-center mt-4 pt-3 border-top">
+                        <p className='mb-0 opacity-75'>&copy; {new Date().getFullYear()} HQ Perfume. Developed by <Link target="_blank" href="https://portfolio-4q49.onrender.com" className='text-black text-decoration-none'><strong>ABDULLA VORA</strong></Link></p>
+                    </div>
             </footer >
         </>
     )
